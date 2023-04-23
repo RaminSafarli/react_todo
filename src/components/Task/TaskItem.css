@@ -1,0 +1,47 @@
+.list-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.list-wrp:not(:last-child) {
+  border-style: none none solid;
+  border-width: 1px;
+  border-image: linear-gradient(45deg, rgb(138, 138, 255), rgb(255, 150, 150)) 1;
+}
+
+.task-list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  word-break: keep-all;
+}
+
+.task-done {
+  text-decoration: line-through;
+}
+
+.list-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.thumbtack {
+  color: yellow;
+}
+
+.check {
+  color: #1db954;
+}
+
+.trash {
+  color: red;
+}
+
+/* .task-list-item::before {
+  content: "\f08d";
+  position: absolute;
+  left: 0;
+} */

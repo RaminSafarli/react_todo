@@ -1,0 +1,46 @@
+.task-form {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.task-form input {
+  padding: 0.5rem 0.5rem;
+  border-style: none none solid;
+  border-width: 1px;
+  border-image: linear-gradient(45deg, rgb(138, 138, 255), rgb(255, 150, 150)) 1;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.task-form input::placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.task-form button {
+  /* background-color: rgba(0, 0, 255, 0.412); */
+  background: linear-gradient(45deg, rgb(138, 138, 255), rgb(255, 150, 150));
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: max-content;
+  padding: 0.5rem;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,34 @@
+.app-wrp {
+  text-align: center;
+}
+
+.app-wrp h1 {
+  background: linear-gradient(45deg, rgb(138, 138, 255), rgb(255, 150, 150));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@media only screen and (max-width: 40em) {
+  .app-wrp {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 40em) {
+  .app-wrp {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  .app-wrp {
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .app-wrp {
+    width: 1000px;
+  }
+}
